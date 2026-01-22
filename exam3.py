@@ -5,7 +5,7 @@
 # GPT 채점·DB(Supabase) 저장 함수를 추가하면 됩니다.
 # --------------------------------------------------
 
-import streamlit as ("참치김밥 존맛탱")  # ← 교과별 제목으로 자유롭게 수정하세요.
+import streamlit as st  # ← 교과별 제목으로 자유롭게 수정하세요.
 
 # ── 2~4. 입력 + 제출을 form 안에 묶기 ──
 with st.form("submit_form"):
@@ -192,5 +192,6 @@ if st.session_state.gpt_feedbacks:
 
 
     st.success("모든 피드백이 생성되었습니다. (DB 저장용 데이터 준비 완료)")
+
 
 
